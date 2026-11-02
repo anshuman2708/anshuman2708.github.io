@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: lightblue;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: darkblue;
+}
+
+.links {
+    text-decoration: none;
+    color: darkblue;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.home {
+    background-color: #e6f2ff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.home h1 {
+    font-size: 40px;
+    color: darkblue;
+}
+
+.home h3 {
+    color: #333333;
+}
+
+.home p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: darkblue;
+    font-size: 30px;
+}
+
+.skill-box {
+    display: inline-block;
+    background-color: #e6f2ff;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid lightblue;
+}
+
+.skill-box h3 {
+    color: darkblue;
+}
+
+
+.project-box {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 650px;
+    border: 1px solid lightblue;
+    text-align: left;
+}
+
+.project-box h3 {
+    color: darkblue;
+}
+
+#contact {
+    background-color: #e6f2ff;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
